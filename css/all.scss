@@ -1,0 +1,54 @@
+@import "normalize";
+
+@import "variables";
+@import "grid";
+@import "base";
+@import "colors";
+@import "margin";
+@import "padding";
+@import "type";
+@import "utilities";
+@import "borders";
+@import "buttons";
+@import "lists";
+@import "forms";
+@import "media-object";
+@import "tables";
+
+html,body {
+  height:100%;
+  margin:0;
+}
+
+.fullscreen {
+  height:100%;
+  min-height:100%;/*for mozilla*/
+  height:auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+// html>body .fullscreen {
+//   height:auto;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+#calendar{
+  background-image: url(images/calendar.jpg);
+  background-size: contain;
+}
+
+#lighthouse{
+  background-image: url(images/lighthouse.jpg);
+  background-size: cover;
+}
+
+.shadow {
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.gradient {
+  // background: linear-gradient(to top, #ccdeeb, #4f93a5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
