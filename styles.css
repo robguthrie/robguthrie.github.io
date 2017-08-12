@@ -715,6 +715,7 @@ textarea {
     color: #1d6fa5; }
 
 .btn--blue {
+  line-height: 3;
   border-color: #2791d9;
   background-color: #3498db;
   color: #fff; }
@@ -800,7 +801,12 @@ html, body {
   height: auto;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center center; }
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .fullscreen img {
+    width: 100%; }
 
 #calendar {
   background-image: url(images/calendar.jpg);

@@ -32,6 +32,7 @@
 }
 
 .btn--blue {
+  line-height: 3;
   @extend %btn--base;
 
   border-color: darken($blue, 3%);
