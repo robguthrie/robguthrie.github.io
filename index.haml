@@ -6,67 +6,109 @@
     %title Robert and Miriam - 6th January 2018
     %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
     %meta{:content => "RSVP and information about Robert and Miriam's wedding", :name => "description"}/
+    <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
     %link{:href => "styles.css", :rel => "stylesheet"}/
     %script{src:"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"}
   %body
     .fullscreen
       %a{href: '#menu'}
         %img{src: 'images/lighthouse.jpg'}
-    .fullscreen#menu
-      %section#why-furtive.measure.p2.txt--center
-        %h3.txt--center 6th January 2018
-        %h1.txt--center Miriam and Robert
-        %h2.txt--center get married!
-        %h2 💐👴🏼👰💍
-        %p.h4.txt--center
-          And we'd love for you to be there.
-        .my2.txt--center
-          %a.h3.btn--green.btn{:href => "https://github.com/johnotander/furtive.git"} RSVP now!
-        .my2.txt--center
-          %a.h3{:href => "#location"} Location
-          %a.h3{:href => "#accommodation"} Accommodation
-          %a.h3{:href => "#programme"} Programme
-          %a.h3{:href => "#faqs"} FAQs
+
+    %section#menu.fullscreen.p2.txt--center.font-fancy
+      %h3.txt--center January 6th, 2018
+      %h1.txt--center{style: "font-size: 6rem"} Miriam and Robert
+      %h2.txt--center are getting married!
+
+      %h1 💐👴🏼👰💍
+      %p.h4.txt--center
+        We'd love for you to be there!
+      .my2.txt--center
+        %a.h3.btn--green.btn{:href => "https://goo.gl/forms/6uCqSjKJXH0FaDE72", target: '_blank'} RSVP NOW!
+
+    .fullscreen
+      %img{src: 'images/at-the-pool.JPG'}
+
+    %section.p2.txt--center
+      .my2
+        %a.btn--blue.h4{:href => "#location"} Getting there
+        &nbsp;
+        %a.btn--blue.h4{:href => "#accommodation"} Accommodation
+        &nbsp;
+        %a.btn--blue.h4{:href => "#programme"} Programme
+        &nbsp;
+        %a.btn--blue.h4{:href => "#faqs"} FAQs
 
     %section#location.measure.p2
       %h3 Getting there 🚘
-      %p.h4
-        The ceremony and reception will be held at Port Molyneux School, Kaka Point.
+      %p
+        We're getting married at Port Molyneux School, Kaka Point, The Catlins, Southland.
+      %p
         It's about an hour and 20 minutes drive south of Dunedin.
-
+      %p
+        If you need a ride to Kaka Point, or have spare seats to share, please let us know when you RSVP.
+      %p Here's a map:
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1511.376283183729!2d169.78091842477696!3d-46.37475269367452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa82db4d1305ee467%3A0xdf6b2ea9286d3510!2sThe+Port+Molyneux+School!5e0!3m2!1sen!2snz!4v1499482411266" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+      -# %h4 Things to see and do:
+      -# %ul
+      -#   %li attend our wedding
+      -#   %li
+      -#     %a{href: "http://www.thelostgypsy.com/"} visit the lost gyspsy caravan.
+      -#   %li
+      -#     Visit
+      -#     %a{href: "http://www.catlins.org.nz/index.php?/site/scenic_highlights"} scenic highlights
+      -#     in the area.
+      -#   %li picnic on the beach
+
     .bg--off-white.py2
       %section#accommodation.measure.p2
         %h3 Accommodation 🏠
-
-        %p.h4
-          We've booked a number of cribs for you to say in, and there is a camping ground quite close by.
-        %p.h4
+        %p
+          We've booked a number of cribs for our guests to stay in, and there is a camping ground quite close by.
+        %p
+          If you need help finding accommodation please let us know when you
+          %a{href: "https://goo.gl/forms/6uCqSjKJXH0FaDE72"} RSVP.
+        %p
           If you are looking around for a place to stay, we recommend searching for something in Kaka Point or around Balclutha.
-        %p.h4
-          If you need help finding accommodation please let us know when you RSVP.
-        %p.h4
+        %p
           We'll be providing a bus to get people back to their beds at the end of the night.
-    %section#faqs.measure.p2
-      %h3 FAQs 🐈
-      %p
-        What time will it start?
-        What do I wear?
-        Can I bring a +1?
-        Where are some cool photos of you two I can have a look at?
-        What's your cat's name agin?
+
     %section#programme.measure.p2
       %h3 Programme
-      %p.h4
-        We'll be setting up the venue on Friday, and having a 🐟+🍟 dinner that evening.
-        On the wedding day, The cremony will begin at 3.30pm we recommend you arrive around 3.
-        There's a dinner at 6, speaches, and partying until midnight.
+      %h4 Friday the 5th
+      %p
+        We'll be setting up the venue, and having a 🐟+🍟 dinner that evening.
+      %h4 Saturday the 6th &mdash; the big day!
+      %p
+        3:00 pm &mdash; Arrive at Port Molyenux School.
+        %br
+        3:30pm &mdash; Ceremony.
+        %br
+        4:00pm &mdash; Drinks, Nibbles, Beach activities!
+        %br
+        6:00pm &mdash; Dinner followed by speeches, and partying until midnight.
+      %h4 Sunday the 7th
+      %p
+        10:00am &mdash; Brunch at Port Molyneux.
         On Sunday we'll have a brunch at the venue, which is over the road from the beach, so if it's nice we might have a beach picnic style thing.
+
+    .bg--off-white.py2
+      %section#faqs.measure.p2
+        %h3 FAQs 🐈
+        %ul
+          %li What time will it start?
+          %li What do I wear?
+          %li Can I bring a +1?
+          %li Where are some cool photos of you two I can have a look at?
+          %li What's your cat's name again?
+          %li
+            Should I RSVP right now?
+            Yep.
+            %a{href: "https://goo.gl/forms/6uCqSjKJXH0FaDE72"} Click here.
 
     %section#kissies.measure.p2
       %h3 Hope we see ya there!
       %h3 🌊🍝🍷🍰🍾🎉🍷🍸🍻😂
-      %p.h4
+      %p
         questions and congratulations always welcome - miriandrob@gmail.com
     %footer.txt--center.p2
       %img.shadow{src: "images/snorking.jpg", alt: "lighthouse at nugget point"}

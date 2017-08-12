@@ -400,7 +400,8 @@ th {
   margin: 0 auto; }
 
 a {
-  color: #3498db; }
+  color: #3498db;
+  text-decoration: none; }
   a:hover, a:focus, a:active {
     color: #217dbb; }
 
@@ -534,10 +535,28 @@ html {
   html {
     font-size: 16px; } }
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.85;
   color: #333; }
+
+.lora, .font-fancy {
+  font-family: 'Lora', serif; }
+
+.bad-script {
+  font-family: 'Bad Script', cursive; }
+
+.julius {
+  font-family: 'Julius Sans One', sans-serif; }
+
+.lustria {
+  font-family: 'Lustria', serif; }
+
+.bubbler {
+  font-family: 'Bubbler One', sans-serif; }
+
+.wire-one {
+  font-family: 'Wire One', sans-serif; }
 
 p,
 .p {

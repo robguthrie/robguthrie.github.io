@@ -17,6 +17,35 @@ body {
   color: $font-color;
 }
 
+
+.font-fancy {
+  @extend .lora;
+}
+
+.lora{
+  font-family: 'Lora', serif;
+}
+
+.bad-script {
+  font-family: 'Bad Script', cursive;
+}
+.julius {
+  font-family: 'Julius Sans One', sans-serif;
+}
+.lustria {
+  font-family: 'Lustria', serif;
+}
+.bubbler {
+  font-family: 'Bubbler One', sans-serif;
+}
+.wire-one {
+  font-family: 'Wire One', sans-serif;
+}
+
+.font-fancy {
+  @extend .lora;
+}
+
 p,
 .p {
   font-size: 1rem;

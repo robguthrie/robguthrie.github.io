@@ -7,7 +7,8 @@ $font-size-l: 16px !default;
 $font-weight: 400 !default;
 $font-color: #333 !default;
 
-$font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+// $font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: 'Open Sans', sans-serif;
 $monospace-font-family: "Monaco", "Lucida Console", Courier, monospace !default;
 
 // Sass will automatically convert the rgba values to hex
