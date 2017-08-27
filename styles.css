@@ -526,7 +526,7 @@ a {
   padding-bottom: 2rem; }
 
 html {
-  font-size: 12px; }
+  font-size: 14px; }
 
 @media screen and (min-width: 32rem) and (max-width: 48rem) {
   html {
@@ -793,6 +793,14 @@ table td {
 html, body {
   height: 100%;
   margin: 0; }
+
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+  max-width: 72px;
+  max-height: 72px; }
 
 .fullscreen {
   height: 100%;

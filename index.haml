@@ -10,119 +10,141 @@
     %link{:href => "styles.css", :rel => "stylesheet"}/
     %link{:rel => 'icon', href: 'images/favicon.ico'}
     %script{src:"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"}
+    <script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.3.0"></script>
+    -# <script src="https://cdn.jsdelivr.net/npm/emojione@3.1.2/lib/js/emojione.min.js"></script>
+    -# <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@3.1.2/extras/css/emojione.min.css"/>
   %body
-    .fullscreen
-      %a{href: '#menu'}
-        %img{src: 'images/lighthouse.jpg'}
+    .convert-emoji
+      .fullscreen
+        %a{href: '#menu'}
+          %img{src: 'images/lighthouse.jpg'}
 
-    %section#menu.fullscreen.p2.txt--center.font-fancy
-      %h3.txt--center January 6th, 2018
-      %h1.txt--center{style: "font-size: 6rem"} Miriam and Robert
-      %h2.txt--center are getting married!
+      %section#menu.fullscreen.p2.txt--center.font-fancy
+        %h3.txt--center January 6th, 2018
+        %h1.txt--center{style: "font-size: 6rem"} Miriam and Robert
+        %h2.txt--center are getting married!
 
-      %h1 💐👴🏼👰💍
-      %p.h4.txt--center
-        We'd love for you to be there!
-      .my2.txt--center
-        %a.h3.btn--green.btn{:href => "https://goo.gl/forms/6uCqSjKJXH0FaDE72", target: '_blank'} RSVP NOW!
+        %h1.txt--center 💐👴🏼👰💍
+        %p.h4.txt--center
+          We'd love for you to be there!
+        .my2.txt--center
+          %a.h3.btn--green.btn{:href => "https://goo.gl/forms/6uCqSjKJXH0FaDE72", target: '_blank'} RSVP NOW!
 
-    .fullscreen
-      %img{src: 'images/at-the-pool.JPG'}
+      .fullscreen
+        %img{src: 'images/at-the-pool.JPG'}
 
-    %section.p2.txt--center
-      .my2
-        %a.btn--blue.h4{:href => "#location"} Getting there
-        &nbsp;
-        %a.btn--blue.h4{:href => "#accommodation"} Accommodation
-        &nbsp;
-        %a.btn--blue.h4{:href => "#programme"} Programme
-        &nbsp;
-        %a.btn--blue.h4{:href => "#faqs"} FAQs
+      %section.p2.txt--center
+        .my2
+          %a.btn--blue.h4{:href => "#location"} Getting there
+          &nbsp;
+          %a.btn--blue.h4{:href => "#accommodation"} Accommodation
+          &nbsp;
+          %a.btn--blue.h4{:href => "#programme"} Programme
+          &nbsp;
+          %a.btn--blue.h4{:href => "#faqs"} FAQs
 
-    %section#location.measure.p2
-      %h3 Getting there 🚘
-      %p
-        We're getting married at Port Molyneux School, Kaka Point, The Catlins, Southland.
-      %p
-        It's about an hour and 20 minutes drive south of Dunedin.
-      %p
-        If you need a ride to Kaka Point, or have spare seats to share, please let us know when you RSVP.
-      %p Here's a map:
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1511.376283183729!2d169.78091842477696!3d-46.37475269367452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa82db4d1305ee467%3A0xdf6b2ea9286d3510!2sThe+Port+Molyneux+School!5e0!3m2!1sen!2snz!4v1499482411266" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-      -# %h4 Things to see and do:
-      -# %ul
-      -#   %li attend our wedding
-      -#   %li
-      -#     %a{href: "http://www.thelostgypsy.com/"} visit the lost gyspsy caravan.
-      -#   %li
-      -#     Visit
-      -#     %a{href: "http://www.catlins.org.nz/index.php?/site/scenic_highlights"} scenic highlights
-      -#     in the area.
-      -#   %li picnic on the beach
-
-    .bg--off-white.py2
-      %section#accommodation.measure.p2
-        %h3 Accommodation 🏠
+      %section#location.measure.p2
+        %h3 Getting there 🚘
         %p
-          We've booked a number of cribs for our guests to stay in, and there is a camping ground quite close by.
+          We're getting married at Port Molyneux School, Kaka Point, The Catlins, Southland.
         %p
-          If you need help finding accommodation please let us know when you
-          %a{href: "https://goo.gl/forms/6uCqSjKJXH0FaDE72"} RSVP.
+          It's about an hour and 20 minutes drive south of Dunedin.
         %p
-          If you are looking around for a place to stay, we recommend searching for something in Kaka Point or around Balclutha.
-        %p
-          We'll be providing a bus to get people back to their beds at the end of the night.
+          If you need a ride to Kaka Point, or have spare seats to share, please let us know when you RSVP.
+        %p Here's a map:
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1511.376283183729!2d169.78091842477696!3d-46.37475269367452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa82db4d1305ee467%3A0xdf6b2ea9286d3510!2sThe+Port+Molyneux+School!5e0!3m2!1sen!2snz!4v1499482411266" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        -# %h4 Things to see and do:
+        -# %ul
+        -#   %li attend our wedding
+        -#   %li
+        -#     %a{href: "http://www.thelostgypsy.com/"} visit the lost gyspsy caravan.
+        -#   %li
+        -#     Visit
+        -#     %a{href: "http://www.catlins.org.nz/index.php?/site/scenic_highlights"} scenic highlights
+        -#     in the area.
+        -#   %li picnic on the beach
 
-    %section#programme.measure.p2
-      %h3 Programme 🏖️
-      %h4 Friday the 5th
-      %p
-        We'll be setting up the venue, and having a 🐟+🍟 dinner that evening.
-      %h4 Saturday the 6th &mdash; the big day!
-      %p
-        3:00pm &mdash; Arrive at Port Molyneux School 🎈
-        %br
-        3:30pm &mdash; Ceremony 😂
-        %br
-        4:00pm &mdash; Drinks & nibbles, beach activities 🏏🥂
-        %br
-        6:00pm &mdash; Dinner followed by speeches, and partying until midnight 🎉
-      %h4 Sunday the 7th
-      %p
-        10:00am &mdash; Brunch at Port Molyneux 🥐
-        %br
-        12:00pm &mdash; Go for a swim? 🌊
+      .bg--off-white.py2
+        %section#accommodation.measure.p2
+          %h3 Accommodation 🏠
+          %p
+            We've booked a number of cribs for our guests to stay in, and there is a camping ground quite close by.
+          %p
+            If you need help finding accommodation please let us know when you
+            %a{href: "https://goo.gl/forms/6uCqSjKJXH0FaDE72"} RSVP.
+          %p
+            If you are looking around for a place to stay, we recommend searching for something in Kaka Point or around Balclutha.
+          %p
+            We'll be providing a bus to get people back to their beds at the end of the night.
 
-    .bg--off-white.py2
-      %section#faqs.measure.p2
-        %h3 FAQs 🐈
+      %section#programme.measure.p2
+        %h3 Programme 🏖️
+        %h4 Friday the 5th
         %p
-          %b What do I wear?
+          We'll be setting up the venue, and having a 🐟+🍟 dinner that evening.
+        %h4 Saturday the 6th &mdash; the big day!
+        %p
+          3:00pm &mdash; Arrive at Port Molyneux School 🎈
           %br
-          Think kiwi summer wedding 😎
-          However it is the south, so be prepared!
-          You might need an ☂️ for rain or sun.
+          3:30pm &mdash; Ceremony 😂
+          %br
+          4:00pm &mdash; Drinks & nibbles, beach activities 🏏🥂
+          %br
+          6:00pm &mdash; Dinner followed by speeches, and partying until midnight 🎉
+        %h4 Sunday the 7th
         %p
-          %b  What's your cat's name?
+          10:00am &mdash; Brunch at Port Molyneux 🥐
           %br
-          It's Jerry.
-        %p
-          %b Can I get you a present?
-          %br
-          Please do not feel that you need to give us anything. We will be chuffed to have you there.
-          %br
-          If you'd like to give us something, we have a 🎁 list, and a honeymoon account.
-        %p
-          %b Should I RSVP right now?
-          %br
-          Yep.
-          %a{href: "https://goo.gl/forms/6uCqSjKJXH0FaDE72"} Click here.
+          12:00pm &mdash; Go for a swim? 🌊
 
-    %section#kissies.measure.p2
-      %h3 Hope to see you there!
-      %h3 🌊🍝🍷🍰🍾🎉🍷🍸🍻😂
-      %p
-        questions and congratulations always welcome - miriandrob@gmail.com
+      .bg--off-white.py2
+        %section#faqs.measure.p2
+          %h3 FAQs 🐈
+          %p
+            %b What do I wear?
+            %br
+            Think kiwi summer wedding 😎
+            However it is the south, so be prepared!
+            You might need an ☂️ for rain or sun.
+          %p
+            %b  What's your cat's name?
+            %br
+            It's Jerry.
+          %p
+            %b Can I get you a present?
+            %br
+            Please do not feel that you need to give us anything. We will be chuffed to have you there.
+            %br
+            If you'd like to give us something, we have a 🎁 list, and a honeymoon account.
+          %p
+            %b Should I RSVP right now?
+            %br
+            Yep.
+            %a{href: "https://goo.gl/forms/6uCqSjKJXH0FaDE72"} Click here.
 
-    %footer.fullscreen
-      %img{src: "images/snorking.jpg", alt: "lighthouse at nugget point"}
+      %section#kissies.measure.p2
+        %h3 Hope to see you there!
+        %h3 🌊🍝🍷🍰🍾🎉🍷🍸🍻😂
+        %p
+          questions and congratulations always welcome - miriandrob@gmail.com
+
+      %footer.fullscreen
+        %img{src: "images/snorking.jpg", alt: "lighthouse at nugget point"}
+
+    :javascript
+      function isMacintosh() {
+        return navigator.platform.indexOf('Mac') > -1
+      }
+      $(document).ready(function() {
+        if (!isMacintosh()) {
+          twemoji.parse(document.body);
+          // $(".convert-emoji").each(function() {
+          //   var original = $(this).html();
+          //   // use .shortnameToImage if only converting shortnames (for slightly better performance)
+          //   emojione.spriteSize = 64
+          //   emojione.emojiSize = 64
+          //   var converted = emojione.toImage(original);
+          //   $(this).html(converted);
+          // });
+        }
+      });
